@@ -1,39 +1,45 @@
-* **Links:**
-* **LinkedIn:** https://www.linkedin.com/in/leonammonteiro/
+# Contexto
 
-**## NatuWiki: Seu Guia Completo para Medicamentos Naturais** - Imersão Dev com Google Gemini e Alura
+Esse projeto foi desenvolvido com o objetivo de fixar conhecimento durante a imersão DEV Alura + Google Gemini.
+Utilizamos linguagem HTML, CSS e JavaScript, sendo esse meu **primeiro projeto integrando JavaScript** em uma página.
+Não foi utilizado frameworks ou banco de dados.
 
-**O que é o NatuWiki?**
+## Observações
+
+Por eu ainda estar em fase inicial de aprendizado, os códigos podem apresentar equívocos estruturais ou inconsistências grotescas kkkk
+*Peço que ame o próximo(eu) como a ti mesmo*
+
+Ideias para futuras atualizações:
+
+- Adição de origem da substância,
+- Adição de dose máxima,
+- Adição de mais links de referência,
+- Adição de sugestão de fórmulas,
+- Adição de restrições e interações perigosas,
+- Adição de links profissionais,
+
+## Meus Links
+
+ - https://github.com/leonammonteiro
+ - https://www.linkedin.com/in/leonammonteiro/
+
+
+# **NatuWiki: Seu Guia Completo para Medicamentos Naturais** 
+
+## O que é o NatuWiki?
 
 O NatuWiki é um guia online completo e fácil de usar, criado para te ajudar a entender melhor os benefícios e usos de diversos medicamentos naturais. Com ele, você pode pesquisar por ingredientes ativos, descobrir para que servem e encontrar informações confiáveis sobre suas propriedades. 
 
-**Como funciona?**
+NatuWiki - Um guia  online intuitivo e fácil de usar, que possui informações de diversos medicamentos naturais que estão ao nosso alcance em feiras e farmácias de manipulação. Você pode perquisar por ativos, descobrir para que servem, quais são suas propriedades e orientações de uso.
+
+Dado a falta de conhecimento abrangente muitos são persuadidos em conversas de vendedor que inventam benefícios ou malefícios falsos para seu próprio benefício econômico, sem se preocupar com a verdadeira dor ou problema que o cliente esteja passando.
+Sem ser injusto, também serve para os revendedores, novos médicos, farmacêutivos e botânicos que buscam em um só lugar innformações fáceis e confiáveis para orientar clientes, pacientes, etc.
+
+## Como funciona?
 
 É simples! Basta digitar o nome da substância natural que você quer conhecer na barra de pesquisa e pronto! Nossa ferramenta inteligente irá vasculhar um vasto banco de dados e te apresentar todas as informações relevantes sobre aquele ingrediente. 
 
-**Quais tecnologias foram usadas?**
-
-Para criar o NatuWiki, utilizamos as seguintes tecnologias:
-
-* **Front-end:** HTML, CSS, JavaScript
-* **Banco de dados:** --
-* **Framework/Biblioteca:** --
-
-**Como contribuir?**
-
-Quer ajudar a melhorar o NatuWiki? Adoramos sugestões! Você pode enviar um e-mail para sac.natuwiki@gmail.com com suas ideias e feedbacks.
-
-**Disclaimer:**
-
-As informações presentes no NatuWiki têm caráter informativo e não substituem a orientação de um profissional de saúde. Consulte sempre um médico antes de iniciar qualquer tratamento ou suplementação.
-
-**Vamos juntos explorar o mundo dos medicamentos naturais!**
-
-**#NatuWiki #SaudeNatural #BemEstar**
-
----
-
-**## Contribuindo para o NatuWiki**
+## Contribuindo para o NatuWiki
 
 Quer ajudar a construir uma comunidade mais saudável e informada? Você pode contribuir para o NatuWiki de diversas maneiras:
 
@@ -42,7 +48,7 @@ Quer ajudar a construir uma comunidade mais saudável e informada? Você pode co
 * **Traduzindo para outros idiomas:** Quer ajudar a levar o NatuWiki para mais pessoas? Traduza a plataforma para o seu idioma.
 * **Criando novos conteúdos:** Se você é um profissional da área da saúde e tem conhecimento sobre plantas medicinais, pode contribuir com artigos e informações relevantes.
 
-**Como contribuir?**
+### Como contribuir?
 
 1. **Fork:** Crie uma cópia do repositório em sua própria conta.
 2. **Clone:** Baixe o repositório para o seu computador.
@@ -55,9 +61,7 @@ Quer ajudar a construir uma comunidade mais saudável e informada? Você pode co
 
 **#OpenSource #Comunidade #Saude**
 
-**## Contribuidores**
+### Contribuidores
 
 
-
-**Observações:**
 
