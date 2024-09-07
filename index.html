@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NatuWiki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+    <div class="container">
+        <img src="imagens/colheres_fundo_escuro.jpg" alt="colheres com substâncias magistrais">
+        <div class="overlay"></div>
+    </div>
+    <header class="c-header">
+        <h1>
+            Guia de medicamentos naturais
+        </h1>
+        <p>
+            Cuide da sua saúde, sem cair em papo de vendedor
+        </p>
+        <div class="c-search">
+            <input id="termo-busca" type="text" placeholder="Pesquise o nome da substância">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </div>
+    </header>
+    <main class="c-main">
+        <div class="resultados-pesquisa" id="resultados-pesquisa">
+        </div>
+    </main>]
+    <footer>
+        <p>
+            Mande sua sugetão para nosso e-mail: <a href="mailto:exemplo@natuwiki.com">sac.natuwiki@gmail.com</a>
+        </p>
+        <p>
+            2024 - Todos os direitos reservados
+        </p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

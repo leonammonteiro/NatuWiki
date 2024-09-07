@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+body {
+    font-family: "Roboto Slab", sans-serif;
+    position: relative;
+    height: 100%;
+}
+
+body img{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* AUXILIO DO GEMINI PARA MAIOR CONSTRASTE DO HEADER */
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    z-index: -1;
+}
+
+.c-header{
+    display: block;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.c-header h1{
+    font-size: 5vh; /* Tamanho da fonte */
+    color: #06f178f1; /* Cor do texto */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    text-align: center;
+    text-shadow: 0 5px rgba(0, 0, 0, 150);
+    padding: 3vh 0 2vh 0;
+}
+
+.c-header p{
+    font-size: 2.5vh;
+    color: #06f178f1;
+    text-shadow: 0 0.1vh rgba(0, 0, 0, 150);
+    padding: 1vh;
+    background-color: #30475E;
+    /* width: max-content; */
+    border-radius: 1.5rem;
+    margin: 0 auto;
+}
+
+.c-search{
+    margin: 2vh;
+}
+
+
+
+.c-header input{
+    height: 3rem;
+    width: 30vw;
+    border-radius: 1.5rem;
+    border: none;
+    color: #45474B;
+    font-size: 1rem;
+    box-sizing: content-box;
+    padding: 0 10vw 0 1vw;
+}
+
+
+.c-header button{
+    height: 3rem;
+    border-radius: 1.5rem;
+    background-color: #7DD5A7;
+    border: none;
+    color: #45474B;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 1vh;
+}
+
+c-main button:hover {
+    background-color: #30475E; /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+.c-main{
+    width: 100%;
+    height: 100vh;
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 70%;
+    height: 100%;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    border-radius: 1rem; /* Borda arredondada */
+    margin: 0 auto;
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: rgba(255, 255, 255, 0.8); /* Cor de fundo dos itens */
+    width: 90%;
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 2rem; /* Tamanho da fonte */
+    color: #06f178f1; /* Cor do texto */
+    background-color: #30475E;
+    text-align: center;
+    border-radius: 10vh;
+}
+
+.item-resultado h3{
+    padding: 3vh 0 0;
+}
+
+
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: underline;
+    color: #30475E; /* Cor do texto dos links */
+    padding: 1vh;
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: solid; /* Adiciona sublinhado ao passar o mouse */
+    background-color: #7DD5A7;
+    border-radius: 5vh;
+}
+
+
+
+/* Estiliza o rodapé da página */
+footer {
+    position: static;
+    background-color: #45474B; /* Cor de fundo do rodapé */
+    text-align: center;
+    color: #ffffff; /* Cor do texto */
+    padding: 0; /* Espaçamento interno */
+    margin: 0;
+    width: 100vw; /* Largura total da página */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem;
+}
+
