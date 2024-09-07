@@ -1,5 +1,5 @@
 * **Links:**
-* **LinkedIn:** [HTML, CSS, JavaScript](https://www.linkedin.com/in/leonammonteiro/)
+* **LinkedIn:** https://www.linkedin.com/in/leonammonteiro/
 
 **## NatuWiki: Seu Guia Completo para Medicamentos Naturais** - Imersão Dev com Google Gemini e Alura
 
