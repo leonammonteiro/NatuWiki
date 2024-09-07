@@ -1,16 +1,12 @@
 function pesquisar() {
     let termoPesquisa = document.getElementById("termo-busca").value.toLowerCase();
-
-
-    let section = document.getElementById("resultados-pesquisa")
+    let section = document.getElementById("resultados-pesquisa");
     if (termoPesquisa == "") {
-        section.innerHTML = "<p style= 'background: rgba(255, 255, 0, 1); text-align: center; margin: 5vh; padding: 1.5rem;'>Nada foi digitado, você precisa digitar o nome de uma substância! Sugestão: <b>Tribulus terrestris</b></p>"
-        return}
+        section.innerHTML = "<div style= 'background: rgba(255, 255, 0, 1); text-align: center; margin: 5vh; padding: 1.5rem;'><p>Nada foi digitado! Escreva o nome de uma substância.</p><p>Sugestão:<b>Alecrim</b></p></div>"
+        return };
     let resultados = "";
-
-    // para cada dado dentro da lista de dados
     for (let ativo of ativos){
-        if (ativo.nome.toLowerCase().includes(termoPesquisa) || ativo.descricao.toLowerCase().includes(termoPesquisa)) {
+        if (ativo.nome.toLowerCase().includes(termoPesquisa) || ativo.descricao.toLowerCase().includes(termoPesquisa) || ativo.nomeCientifico.includes(termoPesquisa) || ativo.tagsx.includes(termoPesquisa)) {
             resultados += `
                 <div class="item-resultado">
                     <div class="titulo">
@@ -44,7 +40,7 @@ function pesquisar() {
 ;
 
 if (!resultados) {
-    resultados = "<p style= 'background: rgba(0, 255, 255, 1); text-align: center; margin: 5vh; padding: 1.5rem;'>Nada foi encontrado, verifique de novo se você digitou corretamente!</p>"
+    resultados = "<div style= 'background: rgba(0, 255, 255, 1); text-align: center; margin: 5vh; padding: 1.5rem;'><p>Nada foi encontrado, verifique se o nome digitado está correto.</p><p>Sugestão:<b>Maca Peruana</b></p></div>"
 }
 
 section.innerHTML = resultados

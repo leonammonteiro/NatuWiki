@@ -7,35 +7,54 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="body">
-    <div class="container">
-        <img src="imagens/colheres_fundo_escuro.jpg" alt="colheres com substâncias magistrais">
-        <div class="overlay"></div>
-    </div>
     <header class="c-header">
-        <h1>
-            Guia de medicamentos naturais
-        </h1>
-        <p>
-            Cuide da sua saúde, sem cair em papo de vendedor
-        </p>
+        <div class="backimage">
+            <img src="imagens/colheres_fundo_escuro.jpg" alt="colheres com substâncias magistrais">
+            <div class="overlay"></div>
+        </div>
+        <a href="">
+            <div class="title">
+                <h1>
+                    Guia de medicamentos naturais
+                </h1>
+                <p>
+                    Seu site de informações de medicamentos manipulados
+                </p>
+            </div>
+        </a>
         <div class="c-search">
-            <input id="termo-busca" type="text" placeholder="Pesquise o nome da substância">
+            <input id="termo-busca" type="text" placeholder="Pesquise o nome do ativo">
             <button onclick="pesquisar()">Pesquisar</button>
         </div>
     </header>
     <main class="c-main">
         <div class="resultados-pesquisa" id="resultados-pesquisa">
         </div>
-    </main>]
-    <footer>
+    </main>
+    <footer class="c-footer">
         <p>
-            Mande sua sugetão para nosso e-mail: <a href="mailto:exemplo@natuwiki.com">sac.natuwiki@gmail.com</a>
+            &lt;/> by <a href="https://www.linkedin.com/in/leonammonteiro/" target="_blank">Leonam Monteiro</a> in Imersão Dev <a href="https://www.alura.com.br/" target="_blank">Alura</a> + <a href="https://gemini.google.com/app" target="_blank">Gemini</a>
         </p>
         <p>
-            2024 - Todos os direitos reservados
+            NatuWiki 2024 | <b> -- Básico, ideal ao tema e responsivo --</b>
         </p>
     </footer>
     <script src="dados.js"></script>
+
+    <!-- COM AJUDA DA GEMINI PARA LIMITAR O TAMANHO DO MAIN -->
+    <script>
+        function adjustMainHeight() {
+            var headerHeight = document.querySelector('.c-header').offsetHeight;
+            var footerHeight = document.querySelector('.c-footer').offsetHeight;
+            var viewportHeight = window.innerHeight;
+            var main = document.querySelector('.c-main');
+            main.style.height = (viewportHeight - headerHeight - footerHeight) + 'px';
+        }
+
+        // Ajuste a altura ao carregar a página e ao redimensionar
+        window.addEventListener('load', adjustMainHeight);
+        window.addEventListener('resize', adjustMainHeight);
+    </script>
     <script src="app.js"></script>
 </body>
 </html>
