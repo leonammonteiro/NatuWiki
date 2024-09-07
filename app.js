@@ -29,7 +29,7 @@ function pesquisar() {
                         <h3>Referências Adicionais</h3>
                         <ul>
                             <li>
-                                <a href=${ativo.linkk} target="_blank">Mais informações</a>
+                                <a href=${ativo.linkk} target="_blank">Mais informações farmacológicas</a>
                             </li>
                         </ul>
                     </div>

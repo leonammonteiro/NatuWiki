@@ -87,7 +87,7 @@ let ativos = [
     dose: "A dosagem recomendada de spirulina pode variar dependendo do produto e do objetivo a ser alcançado. Geralmente, a dose diária recomendada é de 1 a 3 gramas, dividida em duas ou três doses. É importante iniciar com doses menores e aumentar gradualmente para avaliar a tolerância individual. Recomenda-se consultar um profissional de saúde antes de iniciar a suplementação, especialmente se você estiver grávida, amamentando ou tomando outros medicamentos.",
     descricao: "A spirulina, uma cianobactéria, é considerada um superalimento devido ao seu alto valor nutricional. Rica em proteínas de alta qualidade, vitaminas (especialmente do complexo B), minerais (ferro, magnésio) e antioxidantes, a spirulina oferece diversos benefícios para a saúde. Ela pode auxiliar na desintoxicação do organismo, fortalecer o sistema imunológico, melhorar a energia e a resistência física, além de contribuir para a saúde cardiovascular e cerebral. A spirulina também é utilizada para auxiliar no controle do peso e na redução dos níveis de colesterol.",
     linkk: "https://florien.com.br/wp-content/uploads/2023/12/SPIRULINA.pdf",
-    tagsx: "energia imunidade detox vitalidade nutrição",
+    tagsx: "energia imunidade detox vitalidade nutrição espirulina",
   },
   {
   nome: "Chá Verde",
